@@ -84,7 +84,7 @@ def calculate_fibonacci(confirmed_fibonacci):
 
         # calculate the final sum.
         new_term = previous_previous_term + previous_term
-        print(f"{new_term}.\n\nAnd the {confirmed_fibonacci}(th) Fibonacci term is (starting from the 0th index) is {new_term}.\n")
+        print(f"{new_term}.\n\nAnd the {confirmed_fibonacci}(th) Fibonacci term (starting from the 0th index) is {new_term}.\n")
 
 def verifying_conditionss(give_me_fibonacci):
     global confirmed_fibonacci
